@@ -1,2 +1,3 @@
-# process-biases-in-mimic
-Evaluating biases in the healthcare process which impact results
+# Process biases in healthcare studies
+
+Evaluation of the impact of process biases in healthcare.
