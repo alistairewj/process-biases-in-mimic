@@ -32,6 +32,8 @@ Variable name | Description | Timing | Aggregation | Source | Notes
 --- | --- | --- | --- | --- | ---
 wbc_exists | Whether a WBC was measured | Anytime during hospital stay | ANY_VALUE() | 
 *labevents* | filter out any outpatient labs using `hadm_id`
+wbc_value | The value of WBC | ??? | ??? | *labevents*.valuenum | unsure what timing/agg is
+wbc_abnormal | Whether the value of WBC is abnormal | ??? | ??? | *labevents*.flag | unsure what timing/agg is
 
 ### Outcome(s)
 
