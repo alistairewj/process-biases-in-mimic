@@ -20,6 +20,9 @@ Specify changes to the data processing and/or methodology which are known to you
 
 Specify changes to the data processing and/or methodology which *may* have occurred, but you are unable to confirm due to ambiguity in the original material studied. For each difference, describe (1) the most specific reference to the approach in the original study, if possible, and (2) the approach taken in the reproduction.
 
+- Multiple encounters
+    - It is not clear how multiple encounters were handled.
+
 ## Comparison of population
 
 A table comparing the population measures between the original and the reproduction.
