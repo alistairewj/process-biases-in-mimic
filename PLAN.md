@@ -21,7 +21,9 @@ The dataset used in the reproduction is MIMIC-IV.
 
 ### Inclusion/Exclusion criteria
 
-Provide the column names for your proposed "cohort" table, which will apply all inclusion/exclusion criteria. Include the description of the criteria, the table in the dataset you will use, and how missing data will be interpreted (e.g. missing values will be assumed to include the patient).
+* exclusion_unknown_sex - Remove patients with unknown sex. Will use the *patients* table.
+* exclusion_unknown_age - Remove patients with unknown age. Will use the *patients* and *admissions* table, and define age as the age at first hospitalization.
+* exclusion_older_than_89 - Remove patients older than 89. Will use the *patients* table. Will use the *patients* and *admissions* table, and define age as the age at first hospitalization.
 
 ### Variables
 
