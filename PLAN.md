@@ -1,12 +1,10 @@
-# Reproduction template
-
-The goal of this template is to guide documentation of a reproduction of a study in an electronic health record database. Reproductions are assumed to be retrospective observational studies.
-
-This template is based on material from the OSF, as well as from Brandt et al., 2013.
+# Paper Reproduction
 
 ## Title of the study
 
-The title of the reproduced study with its digital object identifier (DOI).
+**Study title**: Biases in electronic health record data due to processes within the healthcare system: retrospective observational study
+
+**DOI**: http://dx.doi.org/10.1136/k1479
 
 ## Dataset(s) used
 
