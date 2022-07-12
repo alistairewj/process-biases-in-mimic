@@ -14,7 +14,7 @@ SELECT sp.hadm_id
 --, wbc_day_of_week -- cannot determine DOW in MIMIC-IV
 , CAST(EXTRACT(HOUR FROM le_prev.charttime) AS NUMERIC)
 + CAST(EXTRACT(MINUTE FROM le_prev.charttime) AS NUMERIC)/60.0 
-    AS wbc_time_of_day
+    AS wbc_prev_time_of_day
 
 FROM `physionet-data.mimiciv_hosp.labevents` le
 INNER JOIN `kind-lab.process_bias.specimen_wbc` sp
