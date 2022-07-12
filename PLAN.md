@@ -8,14 +8,14 @@
 
 ## Dataset(s) used
 
-Describe the dataset used in the reproduction. Include the same information as above, that is at least:
+The original dataset was sourced from Brigham and Women's Hospital and Massachusetts General Hospital.
 
-* Dataset name and version
-* DOI (or link if no DOI available)
-* Citation
-* Other relevant information (link to dataset documentation, etc)
+The dataset used in the reproduction is MIMIC-IV.
 
-If the same dataset in the original study is used for the reproduction, reference the prior section.
+* **Dataset**: MIMIC-IV v2.0
+* **DOI**: https://doi.org/10.13026/7vcr-e114
+* **Citation**: Johnson, A., Bulgarelli, L., Pollard, T., Horng, S., Celi, L. A., & Mark, R. (2022). MIMIC-IV (version 2.0). PhysioNet. https://doi.org/10.13026/7vcr-e114.
+* **Other info**: https://mimic.mit.edu
 
 ## Data extraction
 
