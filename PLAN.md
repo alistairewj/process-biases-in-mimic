@@ -24,6 +24,7 @@ The dataset used in the reproduction is MIMIC-IV.
 * exclusion_unknown_sex - Remove patients with unknown sex. Will use the *patients* table.
 * exclusion_unknown_age - Remove patients with unknown age. Will use the *patients* and *admissions* table, and define age as the age at first hospitalization.
 * exclusion_older_than_89 - Remove patients older than 89. Will use the *patients* table. Will use the *patients* and *admissions* table, and define age as the age at first hospitalization.
+* exclusion_outside_cohort - Remove patients outside the 2008 - 2010 cohort.
 
 ### Variables
 

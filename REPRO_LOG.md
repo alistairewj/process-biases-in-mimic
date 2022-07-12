@@ -22,6 +22,8 @@ Specify changes to the data processing and/or methodology which *may* have occur
 
 - Multiple encounters
     - It is not clear how multiple encounters were handled.
+- Cohort subset
+    - It is unclear how a clinical encounter was defined.
 
 ## Comparison of population
 
