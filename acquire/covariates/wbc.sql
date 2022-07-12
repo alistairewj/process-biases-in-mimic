@@ -9,7 +9,7 @@ SELECT sp.hadm_id
 
 -- add in previous values
 , sp.prev_specimen_id
-, le_prev.valuenum AS wbc_value
+, le_prev.valuenum AS wbc_prev_value
 , CASE WHEN le_prev.flag = 'abnormal' THEN 1 ELSE 0 END AS wbc_prev_abnormal
 --, wbc_day_of_week -- cannot determine DOW in MIMIC-IV
 , CAST(EXTRACT(HOUR FROM le_prev.charttime) AS NUMERIC)
