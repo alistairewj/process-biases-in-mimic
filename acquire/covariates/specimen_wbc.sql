@@ -3,6 +3,7 @@ WITH spec AS
     SELECT DISTINCT hadm_id, specimen_id, charttime
     , FARM_FINGERPRINT(CAST(specimen_id AS STRING)) AS spec_hash
     FROM `physionet-data.mimiciv_hosp.labevents`
+    WHERE itemid = 51301 -- only include wbc specimens
 )
 , rnd AS
 (
