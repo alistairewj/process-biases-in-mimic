@@ -18,6 +18,10 @@ Specify changes to the data processing and/or methodology which are known to you
     - Original approach: Evaluate day of week
     - Reproduction approach: N/A
     - Justification: Day of week is not available in MIMIC-IV.
+- Cohort duration
+    - Original approach: 5 years of data, last year defines cohort
+    - Reproduction approach: 6 years of data, last year defines cohort
+    - Justification: MIMIC-IV separates data into 3 year blocks.
 
 ## Unknown differences
 
