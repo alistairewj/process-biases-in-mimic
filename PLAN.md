@@ -36,6 +36,11 @@ wbc_value | The value of WBC | Random specimen | N/A | *labevents*.valuenum |
 wbc_abnormal | Whether the value of WBC is abnormal | Random specimen | N/A | *labevents*.flag |
 wbc_day_of_week | The day of the week the WBC is ordered | Random specimen | N/A | *labevents*.charttime |
 wbc_time_of_day | The time of day the WBC is ordered | Random specimen | N/A | *labevents*.charttime |
+wbc_prev_hours_between | The hours between two neighbouring tests | Specimen before random specimen above | N/A | *labevents* | Only present if two tests exist
+wbc_prev_value | The value of WBC | Random specimen - 1 | N/A | *labevents*.valuenum |
+wbc_prev_abnormal | Whether the value of WBC is abnormal | Random specimen - 1 | N/A | *labevents*.flag |
+wbc_prev_day_of_week | The day of the week the WBC is ordered | Random specimen - 1 | N/A | *labevents*.charttime |
+wbc_prev_time_of_day | The time of day the WBC is ordered | Random specimen - 1 | N/A | *labevents*.charttime |
 
 ### Outcome(s)
 
