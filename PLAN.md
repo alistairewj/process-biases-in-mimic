@@ -30,7 +30,8 @@ The dataset used in the reproduction is MIMIC-IV.
 
 Variable name | Description | Timing | Aggregation | Source | Notes
 --- | --- | --- | --- | --- | ---
-TBD | TBD |  |  |  |
+wbc_exists | Whether a WBC was measured | Anytime during hospital stay | ANY_VALUE() | 
+*labevents* | filter out any outpatient labs using `hadm_id`
 
 ### Outcome(s)
 
