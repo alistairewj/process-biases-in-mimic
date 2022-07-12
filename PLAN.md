@@ -34,6 +34,8 @@ wbc_exists | Whether a WBC was measured | Anytime during hospital stay | ANY_VAL
 *labevents* | filter out any outpatient labs using `hadm_id`
 wbc_value | The value of WBC | ??? | ??? | *labevents*.valuenum | unsure what timing/agg is
 wbc_abnormal | Whether the value of WBC is abnormal | ??? | ??? | *labevents*.flag | unsure what timing/agg is
+wbc_day_of_week | The day of the week the WBC is ordered | ??? | ??? | *labevents*.charttime | unsure what timing/agg is
+wbc_time_of_day | The time of day the WBC is ordered | ??? | ??? | *labevents*.charttime | unsure what timing/agg is
 
 ### Outcome(s)
 

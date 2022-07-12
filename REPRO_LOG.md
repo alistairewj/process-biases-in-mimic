@@ -14,7 +14,10 @@ Specify changes to the data processing and/or methodology which are known to you
     - Original approach: 3 or 4 years from hospital admission or discharge (not clear)
     - Reproduction approach: 1 year from hospital discharge
     - Mortality data is only available up to 1 year from hospital discharge in MIMIC-IV.
-
+- Day of week is unavailable
+    - Original approach: Evaluate day of week
+    - Reproduction approach: N/A
+    - Justification: Day of week is not available in MIMIC-IV.
 
 ## Unknown differences
 
