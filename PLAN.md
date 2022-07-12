@@ -32,10 +32,10 @@ Variable name | Description | Timing | Aggregation | Source | Notes
 --- | --- | --- | --- | --- | ---
 wbc_exists | Whether a WBC was measured | Anytime during hospital stay | ANY_VALUE() | 
 *labevents* | filter out any outpatient labs using `hadm_id`
-wbc_value | The value of WBC | ??? | ??? | *labevents*.valuenum | unsure what timing/agg is
-wbc_abnormal | Whether the value of WBC is abnormal | ??? | ??? | *labevents*.flag | unsure what timing/agg is
-wbc_day_of_week | The day of the week the WBC is ordered | ??? | ??? | *labevents*.charttime | unsure what timing/agg is
-wbc_time_of_day | The time of day the WBC is ordered | ??? | ??? | *labevents*.charttime | unsure what timing/agg is
+wbc_value | The value of WBC | Random specimen | N/A | *labevents*.valuenum |
+wbc_abnormal | Whether the value of WBC is abnormal | Random specimen | N/A | *labevents*.flag |
+wbc_day_of_week | The day of the week the WBC is ordered | Random specimen | N/A | *labevents*.charttime |
+wbc_time_of_day | The time of day the WBC is ordered | Random specimen | N/A | *labevents*.charttime |
 
 ### Outcome(s)
 
