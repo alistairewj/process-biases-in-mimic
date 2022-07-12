@@ -27,17 +27,12 @@ The dataset used in the reproduction is MIMIC-IV.
 
 ### Variables
 
-List out the planned source for all covariates and exposures extracted for the study, e.g. admission source.
-If describing a time-varying covariate, be specific regarding the aggregation and the time window (e.g. "lowest mean arterial pressure during the first 24 hours of the ICU stay."). The following template is a useful guide.
-
 Variable name | Description | Timing | Aggregation | Source | Notes
 --- | --- | --- | --- | --- | ---
-Heart Rate Day 1 | Patient heart rate | First 24 hours of ICU stay | Highest | chartevents | 
-Sedative use | Midazolam or propofol | Any time during the ICU Stay | Any value | inputevents | 
-
-If unsure about the source, write all possibilities, and justify them in the notes.
-Also include in the notes whether outliers were processed (and how), as well as the approach for missing data.
+TBD | TBD |  |  |  |
 
 ### Outcome(s)
 
-List the outcome(s) used in the study, e.g. 28-day mortality, with similar detail as the above variables.
+Variable name | Description | Timing | Aggregation | Source | Notes
+--- | --- | --- | --- | --- | ---
+one_year_mortality | Whether the patient died one year after hospital discharge | 1 year from dischtime | ANY_VALUE() | patients | existence of dod indicates patient died

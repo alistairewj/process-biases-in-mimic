@@ -10,6 +10,12 @@ The title of the reproduced study with its digital object identifier (DOI).
 
 Specify changes to the data processing and/or methodology which are known to you. For each difference, describe: (1) the original study approach, (2) the reproduction approach, (3) the justification for the change. If possible, classify the differences as major (could impact the result of the study) or minor (unlikely to change the result of the study).
 
+- Timing of Mortality
+    - Original approach: 3 or 4 years from hospital admission or discharge (not clear)
+    - Reproduction approach: 1 year from hospital discharge
+    - Mortality data is only available up to 1 year from hospital discharge in MIMIC-IV.
+
+
 ## Unknown differences
 
 Specify changes to the data processing and/or methodology which *may* have occurred, but you are unable to confirm due to ambiguity in the original material studied. For each difference, describe (1) the most specific reference to the approach in the original study, if possible, and (2) the approach taken in the reproduction.
